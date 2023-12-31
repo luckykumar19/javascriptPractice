@@ -4,8 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: row;
+            padding: 50px;
+            margin-top: 30px;
+            gap: 20px;
+            
+        }
+        .button{
+           height: 200px;
+           width: 400px;
+           
+           border:5px solid black;;
+           
+           
+           
+           
+         }
+
+         #grey{
+            background-color:#d9d9d9;
+            text-align: center;
+             cursor: pointer;
+         }
+         #red{
+            background-color: red;
+            text-align: center;
+             cursor: pointer;
+         }
+         #white{
+            background-color: white;
+            text-align: center;
+            cursor: pointer;
+         }
+         #blue{
+            background-color: blue;
+            text-align: center;
+            cursor: pointer;
+            
+         }
+
+    </style>
 </head>
 <body>
     
+    <h1>Color Scheme Switcher</h1>
+  <div class="container">
+    
+      <span class="button" id="grey">1</span>
+      <span class="button" id="white">2</span>
+      <span class="button" id="red">3</span>
+      <span class="button" id="blue">4</span>
+   
+    </div>
+
+    <script src="test1.js"></script>
 </body>
 </html>
